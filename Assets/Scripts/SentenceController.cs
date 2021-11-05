@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SentenceController : MonoBehaviour
 {
-    public Transform[] options = new Transform[4];
+    public Transform[] options = new Transform[5];
     private Bounds bounds;
     private Vector3[] originalPosition;
 
@@ -12,7 +12,7 @@ public class SentenceController : MonoBehaviour
     void Start()
     {
         bounds = this.GetComponent<BoxCollider2D>().bounds;
-        originalPosition = new Vector3[] { options[0].position, options[1].position, options[2].position, options[3].position };
+        originalPosition = new Vector3[] { options[0].position, options[1].position, options[2].position, options[3].position, options[4].position };
     }
 
     // Update is called once per frame
