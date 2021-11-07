@@ -173,6 +173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 157832d37979f4167bd48df605045d3c, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: cbc7408278196423380e40bf42c1d3d9, type: 3}
 --- !u!114 &19383611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 0632984656f4b4ae5996764a176e5292, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 8b18ebd663bcf4051a3ec50272723e8f, type: 3}
 --- !u!114 &30934004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 8cf8a9cda928240348620cca98c593e3, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: c725c34e9b50a40ebbff80cccd68031b, type: 3}
 --- !u!114 &47481044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,6 +519,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 66f4b362bfba64e73b14fba3b6f12c2b, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 75695bd11642947abbb9ed0016b5e59d, type: 3}
 --- !u!114 &102724463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,6 +684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 0632984656f4b4ae5996764a176e5292, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 681e17c533eed47e586c35e3641f218f, type: 3}
 --- !u!114 &205633886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -843,6 +853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 8cf8a9cda928240348620cca98c593e3, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: d867e38e4209d4fcaa7fa36d565af31a, type: 3}
 --- !u!114 &276844509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,6 +1240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 673159f2a2e554d0e98e2153f634dbd6, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 6649cb48c89cf4a47995893464cccd35, type: 3}
 --- !u!114 &380961252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1454,6 +1468,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 66f4b362bfba64e73b14fba3b6f12c2b, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 147df70a5d5164dec8b859a6ce7cc371, type: 3}
 --- !u!114 &430861245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,6 +1717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 157832d37979f4167bd48df605045d3c, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 115279e1033004f55ba04d02273d55d4, type: 3}
 --- !u!114 &531304206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,6 +1807,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 157832d37979f4167bd48df605045d3c, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: cc93cafe2a64f4f198f80e3d00e4903c, type: 3}
 --- !u!114 &561579986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2072,6 +2092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 673159f2a2e554d0e98e2153f634dbd6, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 600892a495c1f458d9a1e5918597500d, type: 3}
 --- !u!114 &620466035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2160,6 +2182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 66f4b362bfba64e73b14fba3b6f12c2b, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: cba723cb868c24bc78ed524398aa5a2b, type: 3}
 --- !u!114 &631421387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2248,6 +2272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 673159f2a2e554d0e98e2153f634dbd6, type: 3}
+  wordWithSentenceClip: {fileID: 0}
 --- !u!114 &689492627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2495,6 +2521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 157832d37979f4167bd48df605045d3c, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: ebcbc480cc6b94084b97f82f5aef4a9e, type: 3}
 --- !u!114 &918633485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2974,6 +3002,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 66f4b362bfba64e73b14fba3b6f12c2b, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 04134630b2d9f40c69a717f4263813f9, type: 3}
 --- !u!114 &1011908497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3062,6 +3092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 0632984656f4b4ae5996764a176e5292, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 45578f9876a5f487e8fb7d5f548d6d18, type: 3}
 --- !u!114 &1069202253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3200,6 +3232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 8cf8a9cda928240348620cca98c593e3, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: a4a6b20d2037d43589af183d40901db0, type: 3}
 --- !u!114 &1153939282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3443,6 +3477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 66f4b362bfba64e73b14fba3b6f12c2b, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: a507de5b2ba7b473ba175a5a059b6ddd, type: 3}
 --- !u!114 &1225199908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3706,6 +3742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 8cf8a9cda928240348620cca98c593e3, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: e91fca081847642b6bae57689b7f8bca, type: 3}
 --- !u!114 &1315293174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3935,6 +3973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 0632984656f4b4ae5996764a176e5292, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 687a2261c3ae94c34b9a010d8a10f758, type: 3}
 --- !u!114 &1448482895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4023,6 +4063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 8cf8a9cda928240348620cca98c593e3, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 8015f0eb928034ba8ab44b69c721ead9, type: 3}
 --- !u!114 &1547685534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4111,6 +4153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 673159f2a2e554d0e98e2153f634dbd6, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 4012f2bd0e57e404592419c868573012, type: 3}
 --- !u!114 &1582245884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4350,6 +4394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 157832d37979f4167bd48df605045d3c, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: f22ef751ead1345b893882862e98f777, type: 3}
 --- !u!114 &1741175275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4576,6 +4622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 673159f2a2e554d0e98e2153f634dbd6, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: 2e5b641c0df5845488d82030cc1bb889, type: 3}
 --- !u!114 &1776378421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4813,6 +4861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8807683150c6d45eaa2ab7de7dd9a8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordClip: {fileID: 8300000, guid: 0632984656f4b4ae5996764a176e5292, type: 3}
+  wordWithSentenceClip: {fileID: 8300000, guid: b51f868f471824588b5f331d2150e98b, type: 3}
 --- !u!114 &1965824207
 MonoBehaviour:
   m_ObjectHideFlags: 0

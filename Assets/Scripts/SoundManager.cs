@@ -24,6 +24,11 @@ public class SoundManager : MonoBehaviour
         audioSource.PlayOneShot(good_job_clip);
     }
 
+    public void PlayTargetAudioClip(AudioClip targetClip)
+    {
+        audioSource.PlayOneShot(targetClip);
+    }
+
 
 
 }

@@ -7,6 +7,7 @@ public class SentenceController : MonoBehaviour
     public Transform[] options = new Transform[5];
     private Bounds bounds;
     private Vector3[] originalPosition;
+    private float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -28,20 +29,45 @@ public class SentenceController : MonoBehaviour
                 {
                     if(this.name.Contains(options[i].name))
                     {
+                        // correct
                         Debug.Log("Correct");
+                        options[i].GetComponent<OptionController>().WholeSentencePlay();
                         options[i].GetComponent<OptionController>().enabled = false;
-                        SoundManager._instance.GoodJobPlay();
-                        this.GetComponent<SentenceController>().enabled = false;
+                        //SoundManager._instance.GoodJobPlay();
+                        //this.GetComponent<SentenceController>().enabled = false;
+
+                        float seconds = options[i].GetComponent<OptionController>().wordWithSentenceClip.length + 0.5f;
+                        StartCoroutine(PlayGoodJobClipAfterSec(seconds));
                     }
                     else
                     {
-                        options[i].position = new Vector3(originalPosition[i].x, originalPosition[i].y, originalPosition[i].z);
-                        SoundManager._instance.TryAgainPlay();
+                        // wrong
+                        //SoundManager._instance.TryAgainPlay();
+                        //options[i].position = new Vector3(originalPosition[i].x, originalPosition[i].y, originalPosition[i].z);
+                        options[i].GetComponent<OptionController>().WholeSentencePlay();
+                        options[i].GetComponent<OptionController>().enabled = false;
+                        float seconds = options[i].GetComponent<OptionController>().wordWithSentenceClip.length + 0.5f;
+                        StartCoroutine(PlayTryAgainClipAfterSec(seconds, i));
                     }
                 }
 
             }
 
         }
+    }
+
+    IEnumerator PlayGoodJobClipAfterSec(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        SoundManager._instance.GoodJobPlay();
+        this.GetComponent<SentenceController>().enabled = false;
+    }
+
+    IEnumerator PlayTryAgainClipAfterSec(float seconds, int i)
+    {
+        yield return new WaitForSeconds(seconds);
+        SoundManager._instance.TryAgainPlay();
+        options[i].position = new Vector3(originalPosition[i].x, originalPosition[i].y, originalPosition[i].z);
+        options[i].GetComponent<OptionController>().enabled = true;
     }
 }
